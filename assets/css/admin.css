@@ -1,0 +1,52 @@
+.sidebar {
+    min-height: calc(100vh - 56px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar .nav-link {
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+    background-color: #f8f9fa;
+}
+
+.dashboard-stats .card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.dashboard-stats .card:hover {
+    transform: translateY(-5px);
+}
+
+.table-responsive {
+    margin-bottom: 1rem;
+}
+
+.action-buttons .btn {
+    margin: 0 0.25rem;
+}
+
+.status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+}
+
+.status-active {
+    background-color: #28a745;
+    color: white;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: black;
+}
+
+.status-banned {
+    background-color: #dc3545;
+    color: white;
+}
